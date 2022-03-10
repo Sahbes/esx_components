@@ -17,6 +17,7 @@ local components = exports['esx_components']:GetComponents(1, "WEAPON_ASSAULTRIF
 ## SetComponents
 #### Usage: `exports['esx_components']:SetComponents(player, weapon, components)`
 Returns false if the player does not have the weapon
+
 If the components are added to the weapon it will return true
 
 Example
@@ -33,6 +34,7 @@ exports['esx_components']:SetComponents(1, "WEAPON_ASSAULTRIFLE", components)
 ## MatchComponents
 #### Usage: `exports['esx_components']:MatchComponents(components1, components2)`
 Returns false if the tables do not match
+
 Return true if the tables match
 
 Example
