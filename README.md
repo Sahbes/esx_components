@@ -6,6 +6,7 @@ you can use this for saving attachments in properties, trunks, inventories etc
 ## GetComponents
 #### Usage: `exports['esx_components']:GetComponents(player, weapon)`
 Returns false if the player does not have the weapon
+
 If the player does have the weapon it will return a list of all the attachments the player has for that weapon
 
 Example
